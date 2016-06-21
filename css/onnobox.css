@@ -1,0 +1,56 @@
+
+* {margin:0;border:0;padding:0}
+body {height:100%;}
+.boxoverlay {
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:#000;
+	opacity:0;
+	filter:alpha(opacity=0);
+	z-index:50;
+	cursor:pointer;
+}
+.boxcontainer {
+	position:absolute;
+	opacity:0;
+	filter:alpha(opacity=0);
+	left:-9999em;
+	z-index:51;
+	 top: 0; 
+	 left: 
+	 0; 
+	 bottom: 0; 
+	 right: 0;
+	
+}
+
+.onnotitle {
+	position: absolute;
+	color: #FFF;
+	font-size: 14px;
+	margin-top: 0.5vh;
+	width: 100%;
+	z-index:52;
+}
+
+.onnotitlebg{
+	position: absolute;
+	color: #FFF;
+	background-color: black;
+	font-size: 90px;
+	top: 90vh;
+	text-align: center;
+	margin: 0 auto;
+	height: 5vh;
+	z-index:53;
+}
+
+h3 {
+
+font-style: uppercase;
+
+}
+
